@@ -1,0 +1,206 @@
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+/*Nav Bar */
+
+.right-links {
+    background: #1F2937;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    text-decoration: none;
+    display: flex; 
+    gap: 50px;
+}
+.logo {
+    padding: 15px;
+}
+.header {
+    color: #F9FAF8;
+    font-weight: bold; 
+    background: #1F2937;
+    flex-direction: row;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+img {
+    border: 0;
+}
+
+/*Intro*/
+
+.top{
+    background-color: #1F2937;
+    color: white;
+    display: flex; 
+    padding: 90px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.box1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+.box2{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top button {
+    color: #F9FAF8;
+    font-size: 15px;
+    background: #3882F6;
+    display: block;
+    text-align: center;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+/*Information*/
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+    padding: 90px;
+    text-align: center;  
+}
+
+.box3 {
+    text-align: center;
+    margin: 32px;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.info {
+    gap: 52px;
+    padding: 25px;
+    max-width: 200px;
+    text-align: center;
+}
+.image1 {
+    border-radius: 5px;
+    border: 2px solid #3882F6; 
+}
+img {
+    padding: 10px;
+}
+.text {
+    margin: 10px;
+}
+
+/*Inspiring Quote*/
+
+.bottom {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    background: #E5E7EB;
+    padding: 90px;
+    justify-content: center;
+    flex-direction: column;
+}
+.inspiringquote {
+    color: #1F2937;
+    font-size: 36px; 
+    font-style: italic;
+    }
+.endquote {
+    text-align: right;
+    background: #E5E7EB;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/* Marketing */
+
+.footer {
+    margin: 50px;
+    display: flex;
+}
+
+.side1 {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    padding-inline: 10rem;
+    background-color: #3882F6;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 3rem;
+    display: block;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.button2 {
+    padding-inline: 2rem;
+    padding-block: 7px;
+    outline: none;
+    border-radius: 7px;
+    font-weight: 500;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: center;
+        
+}
+.side1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+}
+
+.footer button {
+    background-color: #3882F6;
+    color: white;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding-inline: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    }
+
+    
